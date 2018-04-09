@@ -3,7 +3,9 @@
     <p>
       All my Books:
     </p>
-    <nuxt-link v-for="book in books" :key="book.filename" :to="book.permalink" v-html="book.permalink"></nuxt-link>
+    <p v-for="book in books" :key="book.filename">
+      <nuxt-link :to="book.permalink" v-html="book.permalink"></nuxt-link>
+    </p>
   </section>
 </template>
 
