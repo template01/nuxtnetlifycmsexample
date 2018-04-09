@@ -1,14 +1,12 @@
 <template>
   <section>
     <p>
-      My Books:
+      My Book:
     </p>
-    <div v-html="book.body">
-
-    </div>
+    <p v-html="book.title"></p>
+    <div v-html="book.body"></div>
   </section>
 </template>
-
 <script>
 export default {
   async asyncData ({ app, route }) {
