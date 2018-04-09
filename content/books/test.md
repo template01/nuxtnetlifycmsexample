@@ -2,6 +2,8 @@
 title: Dracula
 date: '2018-04-09T14:02:43+02:00'
 ---
+![](/images/uploads/hibernation_schetsmateriaal_-15-of-17-1500x1200.jpg)
+
 Dracula
 
 By Bram stoker
